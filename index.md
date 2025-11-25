@@ -69,10 +69,8 @@ The submissions need to include
         <li>an ordered list of all machine assignments for all operations </li>
         <li>an ordered list of all worker assignments for all operations </li>
         <li>the name of the benchmark instance </li>
-        <li>number of function evaluations to achieve the best result<li></ul>
-        For scenario 2 also:  
-        <ul>
-        <li>the uncertainty parameters provided by the simulation environment </li>
+        <li>number of function evaluations to achieve the best result</li>
+        <li><b>For scenario 2 also:</b> the uncertainty parameters provided by the simulation environment</li>
     </ul>
     <li>a description of the algorithm (solver) </li>
     <li>the code of the solver </li>
