@@ -178,3 +178,13 @@ R = robust_makespan/max(e)
 
 print(f'Original Makespan: {max(e)} | Robust Makespan: {robust_makespan:.4f} - {robust_makespan_stdev:.4f} | Original-Robust Relation: {R:.4f}')
 ```
+
+## Organizers
+<b>Michael Hellwig</b> is a Senior Scientist at the Information Systems Research Center at Vorarlberg University of Applied Sciences in Dornbirn (Austria) and a lecturer in Business Mathematics and Statistics at the University of Liechtenstein. He studied Mathematics at the Technical University of Dortmund and received his doctorate in Theoretical Computer Science from the University of Ulm in 2017. During his post-doc period, he concentrated on the development and the theoretical analysis of Evolution Strategies in noisy and constrained search spaces. In connection with this, he has also dealt intensively with benchmarking aspects and contributed to the development of systematic test instances. Since 2021, he has been director of the Josef Ressel Centre for Robust Decision Making, which focuses on the application of Computational Intelligence methods for data-driven decision support in companies. In this context, he currently deals with the topic of worker flexibility and uncertainty in scheduling problems, among other topics. 
+
+ <b>David Hutter</b> is a PhD student at the Josef Ressel Centre for Robust Decision Making at Vorarlberg Universitiy of Applied Sciences in Dornbirn (Austria) and the Department of Computer Sciences at the University of Innsbruck (Austria). He received his master’s degree in Computer Science from Vorarlberg University of Applied Sciences in Dornbirn (Austria). Currently, he mainly works on production scheduling problems, including the flexible job shop scheduling problem (FJSSP), the FJSSP with worker flexibility and the FJSSP with respect to different types of uncertainties. 
+ 
+<b>Thomas Steinberger</b> is a is a Senior Scientist at the Information Systems Research Center at Vorarlberg University of Applied Sciences in Dornbirn (Austria) and a lecturer on Mathematics and Statistics at Vorarlberg University of Applied Sciences. He studied Mathematics at the University of Vienna and received his doctorate in Mathematics in 1997. His current research focusses on MIP and CP formulations of scheduling problems and on applications of neural networks to image classification problems. 
+
+## Acknowledgements
+The financial support by the Austrian Federal Ministry of Labour and Economy, the National Foundation for Research, Technology and Development, the Christian Doppler Research Association is gratefully acknowledged.
