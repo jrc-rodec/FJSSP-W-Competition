@@ -175,10 +175,14 @@ for i in range(n_simulations):
     g.simulate(instance['d'], uncertainty_parameters, processing_times=True)
     results.append(float(max(g.e)))
 
+
 import statistics
 robust_makespan = statistics.mean(results)
 robust_makespan_stdev = statistics.stdev(results)
 R = robust_makespan/max(e)
+
+# NOTE: as a shorthand for the above execution of the simulations, alternatively one can use, which returns the same metrics and the collection of the simulation results
+results, robust_makespan, robust_makespan_stdev, R = run_n_simulations(instance['s'], e, instance['m'], instance['w'], instance['js'], instance['d'], uncertainty_parameters, n_simulations, processing_times=True)
 
 print(f'Original Makespan: {max(e)} | Robust Makespan: {robust_makespan:.4f} - {robust_makespan_stdev:.4f} | Original-Robust Relation: {R:.4f}')
 ```
