@@ -179,7 +179,7 @@ def show_simulation_comparison(results : list[list[float]], labels : list[str], 
             index = 0
             for j in range(len(sorted_result)):
                 if sorted_result[j] == r:
-                    index = r
+                    index = j
                     break
                 if sorted_result[j] > r:
                     index = j-1

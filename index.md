@@ -168,7 +168,9 @@ results = []
 n_simulations = 50
 for i in range(n_simulations):
     g = Graph(instance['s'], e, instance['m'], instance['w'], instance['js'])
-    g.simulate(instance['d'], uncertainty_parameters)
+    # Note that while the environment offers other types of uncertainties, the competition only
+    # uses the uncertainties attached to the processing times.
+    g.simulate(instance['d'], uncertainty_parameters, processing_times=True)
     results.append(float(max(g.e)))
 
 import statistics
