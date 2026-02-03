@@ -47,7 +47,7 @@ Furthermore, we expect a minimum of novelty value from all submissions, be it th
 
 The algorithmic source code as well as the algorithmic results need to be submitted to the organizers of the competition via Submission Issues in a prepared Github repository. 
 
-In the style of the COCO BBOB benchmarking suite, we intend to accept submissions as Github issues. That is, the code, the data and optional additional materials can be made available in a clear and organized way. More details on the submission guidelines will follow in our call for participation in case this proposal gets accepted. 
+In the style of the COCO BBOB benchmarking suite, we intend to accept submissions as Github issues. That is, the code, the data and optional additional materials can be made available in a clear and organized way.
 
 ### Data 
 
@@ -77,9 +77,11 @@ The submissions need to include
     <li>a description of the used hardware </li>
     <li>Name, affiliation and emails of the participants </li>
 </ul>
-The lists are ordered according to the jobs of the benchmark instance (e.g. Job 1 Operation 1, Job 1 Operation 2, Job 2 Operation 1, Job 3 Operation 1, Job 3 Operation 2). A template and an example for a valid submission for both scenarios will be provided. 
+The lists are ordered according to the jobs of the benchmark instance (e.g. Job 1 Operation 1, Job 1 Operation 2, Job 2 Operation 1, Job 3 Operation 1, Job 3 Operation 2). 
 
 The functions used to determine the makespan and workload balance are provided by the competition to make sure everyone uses the same metrics. The required simulation functions are also provided. 
+
+In case there are any open questions about the submission process or format, you can contact: david.hutter@fhv.at
 
 ### Paper 
 
