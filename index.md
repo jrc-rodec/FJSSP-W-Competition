@@ -47,7 +47,7 @@ Furthermore, we expect a minimum of novelty value from all submissions, be it th
 
 The algorithmic source code as well as the algorithmic results need to be submitted to the organizers of the competition via Submission Issues in a prepared Github repository. 
 
-In the style of the COCO BBOB benchmarking suite, we intend to accept submissions as Github issues. That is, the code, the data and optional additional materials can be made available in a clear and organized way.
+In the style of the COCO BBOB benchmarking suite, we intend to accept submissions as Github issues. That is, the code, the data, a formal description of the approach and optional additional materials can be made available in a clear and organized way.
 
 ### Data 
 
