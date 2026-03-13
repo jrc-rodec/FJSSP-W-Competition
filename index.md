@@ -74,7 +74,7 @@ The submissions need to include
     </ul>
     <li>a description of the algorithm (solver) </li>
     <li>the code of the solver </li>
-    <li>a description of the used hardware </li>
+    <li>a description of the used hardware - <b>Please use the conference templates for your submissions and note the page limitations for competition contributions.</b> In case of a late submission we can not guarantee an inclusion of the contribution in the conference proceedings.</li>
     <li>Name, affiliation and emails of the participants </li>
 </ul>
 The lists are ordered according to the jobs of the benchmark instance (e.g. Job 1 Operation 1, Job 1 Operation 2, Job 2 Operation 1, Job 3 Operation 1, Job 3 Operation 2). 
